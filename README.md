@@ -1,6 +1,7 @@
 # Bean Leaf Classification
 
-This project aims to build a model capable of classifying diseased (Angular Leaf Spot and Bean Rust) and healthy bean leaves.
+The goal of this project is to create a model that can accurately detect and classify diseases in bean leaves using a dataset of images, which can help farmers identify and treat diseased plants more quickly and effectively. Convolutional neural networks (CNNs) will be used to train the model, which has shown great success in image classification tasks.
 
-This project is from [Abubakar Abid's](https://www.linkedin.com/in/abid15/) course: *Building Computer Vision Applications on CoRise*.
-Learn more about the course [here](https://corise.com/course/computer-vision).
+## Dataset
+
+The [iBean](https://github.com/AI-Lab-Makerere/ibean/) dataset was used for training and evaluating the model. It consists of images of soybean plants with annotations for various plant diseases and health conditions.
