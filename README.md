@@ -5,6 +5,7 @@ The goal of this project is to create a model that can accurately detect and cla
 
 The [iBean](https://github.com/AI-Lab-Makerere/ibean/) dataset was used for training and evaluating the model. It consists of 1295 images of bean plants with annotations for various plant diseases and health conditions. The dataset was divided into training , validation, and testing sets and resized to 224x224.
 
+![Data Preview](https://raw.githubusercontent.com/trizkynoviandy/bean-leaf-classification/main/images/data_preview.png "Data Preview")
 ## Methods
 
 Three different deep learning models were used to classify the bean leaf diseases: ResNet50, MobileNetV3, and VGG19. These models were trained on the training set using categorical cross-entropy loss and optimized using the Adam optimizer. The model with the lowest validation loss was selected as the final model and evaluated on the testing set.
